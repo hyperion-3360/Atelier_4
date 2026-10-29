@@ -1,4 +1,4 @@
-public class exercise003{
+public class exercise103{
     public static void main(String[]args){
         double prixInitial = 49.99;
         double rabais = 0.20;

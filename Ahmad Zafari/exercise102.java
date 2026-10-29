@@ -1,4 +1,4 @@
-public class exercise002{
+public class exercise102{
 
     public static void main(String[]args){
         int a = 7;
