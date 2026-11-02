@@ -3,7 +3,7 @@ public class Exercice2_5
 {
     public static void main(String []args)
     {
-        int annee = 2019;
+        int annee = 2046;
 
         int x = annee % 4;
         int y = annee % 100;
@@ -14,7 +14,7 @@ public class Exercice2_5
         else if (x == 0)
         {
             if (y != 0)
-            System.out.println("pas bissextile");
+            System.out.println("bissextile");
             else if (y == 0)
             {
                 if (z != 0)
