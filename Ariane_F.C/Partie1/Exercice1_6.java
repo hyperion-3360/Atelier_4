@@ -1,5 +1,5 @@
 package Partie1;
-public class Exercice6
+public class Exercice1_6
 {
     public static void main(String []args)
     {
