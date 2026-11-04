@@ -3,36 +3,37 @@ public class Exercice3_1
 {
     public static void main(String []args)
     {
-        int jour = 9;
+        int jour = 5;
 
         switch (jour)
         {
-            case 1:
-            System.out.println("Dimanche");
-            break;
 
-            case 2:
+            case 1:
             System.out.println("Lundi");
             break;
 
-            case 3:
+            case 2:
             System.out.println("Mardi");
             break;
 
-            case 4:
+            case 3:
             System.out.println("Mercredi");
             break;
 
-            case 5:
+            case 4:
             System.out.println("Jeudi");
             break;
 
-            case 6:
+            case 5:
             System.out.println("Vendredi");
             break;
 
-            case 7:
+            case 6:
             System.out.println("Samedi");
+            break;
+
+            case 7:
+            System.out.println("Dimanche");
             break;
             
             default:
