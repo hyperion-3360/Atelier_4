@@ -8,7 +8,7 @@ public class Exercice4 {
             case 'C':System.out.println("Bien");break;
             case 'D': System.out.println("Passable");break;
             case 'F': System.out.println(hihihi);break;
-            default: System.out.println("Je te jure si c plus bas que F tu es dans le caca");
+            default: System.out.println("Je te jure si ces plus bas que F tu es dans le caca");
         }
     }
 }
