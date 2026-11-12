@@ -141,6 +141,92 @@ public class HelloWorld
         //Exercise #1
         System.out.println("- #1");
         int jour = 7;
+        switch(jour) {
+            case 1 :System.out.println("lundi"); break;
+            case 2 :System.out.println("mardi"); break;
+            case 3 :System.out.println("mecredi"); break;
+            case 4 :System.out.println("jeudi"); break;
+            case 5 :System.out.println("vendredi"); break;
+            case 6 :System.out.println("samedi"); break;
+            case 7 :System.out.println("dimanche"); break;
+            default :System.out.println("Valeur Invalide"); break;
+        }
+
+        //Exercise #2
+        System.out.println("- #2");
+        int mois = 7;
+        switch(mois) {
+            case 12, 1, 2:
+                System.out.println("Hiver"); break;
+            case 3, 4, 5:
+                System.out.println("Printemps"); break;
+            case 6, 7, 8:
+                System.out.println("Ete"); break;
+            case 9, 10, 11:
+                System.out.println("Automne"); break;
+            default :System.out.println("What were you thinking?");
+        }
+
+        //Exercise #3
+        System.out.println("- #3");
+        char operateur = '*';
+        int z = 10;
+        int c = 2;
+        switch(operateur) {
+            case '+' :System.out.println(z + c); break;
+            case '-' :System.out.println(z - c); break;
+            case '*' :System.out.println(z * c); break;
+            case '/' :System.out.println(z / c); break;
+            default :System.out.println("Invalid Value"); break;
+        }
+
+        //Exercise #4
+        System.out.println("- #4");
+        char note2 = 'A';
+        switch(note2) {
+            case 'A' :System.out.println("Wow!"); break;
+            case 'B' :System.out.println("Good"); break;
+            case 'C' :System.out.println("Ok"); break;
+            case 'D' :System.out.println("Bad"); break;
+            case 'F' :System.out.println("No job for you"); break;
+            default :System.out.println("Invalid Value"); break;
+        }
+
+        //Exercise #5
+        System.out.println("- #5");
+        switch(jour) {
+            case 1:
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("jour de semaine"); break;
+            case 6:
+            case 7:
+                System.out.println("fin de semaine"); break;
+            default :System.out.println("Valeur Invalide"); break;
+        }
+
+        //Exercise #6
+        System.out.println("- #6");
+        int choixMenu = 3;
+        switch(choixMenu) {
+            case 1 :System.out.println("Afficher le mois"); break;
+            case 2 :System.out.println("Afficher le ficher de capybaras"); break;
+            case 3 :System.out.println("Spawn un capybara"); break;
+            case 4 :System.out.println("Quitter"); break;
+            default :System.out.println("Capybara invalide"); break;
+        }
+
+        //WOoooww
+        int test = 2;
+        String saison = switch (test) {
+            case 1, 2, 12 -> "hiver";
+            default -> {
+                
+                yield "mois invalide";
+            }
+        };
         
     }
 }
